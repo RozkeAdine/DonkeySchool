@@ -1,10 +1,94 @@
-#projet_global{
+*{
+    padding: 0;
+    margin: 0,0,0,0;
+}
+#Projet_global, #Articles_global{
     width: 100%;
+    display:flex;
   
 }
+.hover-effect:hover{
+   opacity: 50%;
+   border-radius: 3px;
+   filter: grayscale(0);
 
-#projet_1, #projet_2, #projet_3 {
-    float:none;
-    display: inline-block;
-    vertical-align:bottom;
+}
+
+img:first-child {
+    filter: grayscale(1);
+}
+
+
+.titre1 {
+
+    font-size: 600%;
+    width:100%;
+
+
+}
+
+
+section h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, center;
+
+}
+
+body {
+    background: url(/assets/road960_720.webp) no-repeat center fixed;
+    -webkit-background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+p {
+    color: aliceblue;
+}
+
+ul {
+    text-align: center; /* pose le menu au centre de la page*/
+        
+}
+
+.menu li {
+    display: inline-block; /* alligne les box à l'horizontal*/
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+/*recuperé sur pierre-giraud.com donc a tester pour portfolio definitif*/
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+/*-------------------------------------------------------------------------*/
+
+input {
+    width: 30%;
+    height: 35px;
+    text-align: center;
+}
+
+textarea{
+    width: 30%;
+    height: 150px;
+    text-align: center;
+}
+
+button{
+    width: 30%;
+    height: 50px;
+    background-color: gray;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+footer {
+float: none;
 }
