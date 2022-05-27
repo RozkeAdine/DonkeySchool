@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--taille de la fenetre-->
     <meta name="author" content="RozkeAdine BOUYAHIA"/>
     <meta name="description" content="mon portfolio en mode exercice avant amelioration"/>
     <title>challenge 2 HTML CSS</title>
@@ -12,115 +12,34 @@
 </head>
 <body>
          <header class="entete">
-            <h1 class="titre1">Mon Portfolio</h1>
-            <nav>
-
+            <img id="entete_logo" src="/assets/profile.png" alt="photo de profile">
+            <h1 class="titre1">BOUYAHIA Rozke Adine</h1>
+            <label for="burger"><img src="/assets/menu burger_withe.jpg" alt="image menu burger"></label>
+            <input type="checkbox" id="burger">
+            <nav class="nav_menu">
                 <ul class="menu">
-                    <li class="deroulant"><a href="#Projet_global">Projet Réalisés</a>
-                        <ul class="sous">
+                    <li class="deroulant"><a href="/projet_realises.html">Projet Réalisés</a>
+                        <!--<ul class="sous">
                             <li><a href="#Projet_1">Projet 1</a>
                             <li><a href="#Projet_2">Projet 2</a>
                             <li><a href="#Projet_3">Projet 3</a>
-                        </ul>
+                        </ul>-->
                     </li>
-                    <li><a href="#Etudes">Etudes</a></li>
-                    <li class="deroulant"><a href="#Articles_global">Articles</a>
-                        <ul class="sous">    
+                    <li><a href="/Etudes.html">Etudes</a></li>
+                    <li class="deroulant"><a href="/Articles.html">Articles</a>
+                        <!--<ul class="sous">    
                             <li><a href="#Articles_1">Article 1</a>
                             <li><a href="#Articles_2">Article 2</a>
-                        </ul>
+                        </ul>-->
                     </li>
-                    <li><a href="#Contact">Contact</a></li>         
+                    <li><a href="/Contact.html">Contact</a></li>         
                 </ul>
-          
+               
             </nav>
         </header>
-    <section id="Projet">
-
-        <h2>Projet Réalisés</h2>
-
-           <article id="Projet_global">
-            <div id="Projet_1">
-                <H3>projet 1</H3>
-                <img class="hover-effect" src="assets/chateau dans la foret1.jpg"  alt="chateau en foret1">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </div>
-            <divc id="Projet_2">
-                <H3>projet 2</H3>
-                <img class="hover-effect" src="assets/chateau dans la foret2.jpg" alt="chateau en foret2">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </divc>
-            <div id="Projet_3">
-                <H3>projet 3</H3>
-                <img class="hover-effect" src="assets/chateau dans la foret3.jpg" alt="chateau en foret3">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </div>
-            </article>
-
-    </section>
-
-    <section id="Etudes">
-        <h2>Etudes</h2>
-
-            <article id="Etudes_global">
-            <div id="Etude_1">
-                <img class="hover-effect" src="assets/chateau dans la foret4.jpg"  alt="chateau en foret4">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </div>
-            </article>
-        
-    </section>
-
-    <section id="Articles">
-        <h2>Articles</h2>
-
-            <article id="Articles_global">
-            <div id="Articles_1">
-                <H3>article 1</H3>
-                <img class="hover-effect" src="assets/chateau dans la foret5.jpg"  alt="chateau en foret5">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </div>
-            <div id="Articles_2">
-                <H3>article 2</H3>
-                <img class="hover-effect" src="assets/chateau dans la foret6.jpg"  alt="chateau en foret6">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo voluptate, molestias delectus quia,
-                et numquam repudiandae placeat quasi alias vel excepturi dignissimos tenetur dolor cum assumenda accusantium fugiat at.</p>
-            </div>
   
-            </article>  
-<!---->
-    </section>
-
     <footer>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <form action="/data_form.txt" method="post">
-                <ul>
-                <li>
-                    <label for="name">NAME:</label><br>
-                    <input placeholder="name" type="text" value="">
-                </li>
-                <li>
-                    <label for="mail">E-MAIL:</label><br>
-                    <input placeholder="@" type="email" value="">
-                </li>
-                <li>
-                    <label for="msg">MESSAGE:</label><br>
-                    <textarea placeholder="tapez votre texte ici"></textarea>
-                    <li class="button">
-                    <button type="submit">envoyer</button>
-                    </li>
-                </li>
-                </ul>
-            </form>
-        </section>
-        
-        <img class="hover-effect" src="assets/sonic.webp"  alt="image sonic hérisson attendant">
+       
         
     </footer>  
 </body>
