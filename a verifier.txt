@@ -1,0 +1,7 @@
+.entete {
+    
+    position: fixed;
+    width: 100%;
+    -webkit-box-flex: initial;
+   
+}
