@@ -1,0 +1,10 @@
+#projet_global{
+    width: 100%;
+  
+}
+
+#projet_1, #projet_2, #projet_3 {
+    float:none;
+    display: inline-block;
+    vertical-align:bottom;
+}
